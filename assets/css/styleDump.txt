@@ -1,0 +1,312 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+body {
+    background: url("../images/gomJabbarPoster.jpg")
+}
+
+
+.body {
+    font-family: Open Sans;
+    background: url("../images/gomJabbarPoster.jpg")
+}
+
+.topContainer{
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #1E90FF;
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+.div#test{ border:#5AB029 3px solid; padding:10px 40px 40px 40px; background-color:#E5FCE3; width:50%;}
+
+#youArePaul {
+    width: 20%;
+    max-width: 200px;
+}
+
+
+#youArePaul2 {
+width: 20%;
+    max-width: 200px;
+}
+
+.paulCaladan {
+    width: 20%;
+    max-width: 200px;
+}
+
+.characterSelectPaul {
+    
+    width: 20%;
+  
+    
+    }; 
+        /* 
+        #button
+        
+        #submit
+        
+        #results */
+          .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
+        /* 
+        .characterContainerSelect{
+            width:80%;
+        } */
+        
+        
+        .middle {
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        
+        
+        
+        
+        
+        .paulContainer {
+            position: relative;
+            width: 50%;
+          }
+          
+          .imagePaul {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+          
+          .overlayPaul {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60%;
+            width: 20%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: blue;
+          }
+          
+          .Container:hover .overlayPaul {
+            opacity: 0.8;
+          }
+    
+    
+    .characterSelectFeyd {
+    max-width: 10%;
+    };
+    
+    /* 
+    #button
+    
+    #submit
+    
+    #results */
+    
+      
+      .textPaul {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      
+      
+      .textFeyd {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    /* 
+    .characterContainerSelect{
+        width:80%;
+    } */
+    
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    
+    
+    
+    
+    .feydContainer {
+        position: relative;
+        width: 50%;
+      }
+      
+      .imageFeyd {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlayRed {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60%;
+        width: 20%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: red;
+      }
+      
+      .feydContainer:hover .overlayRed {
+        opacity: 0.8;
+      }
+    
+    
+    
+     
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .container:hover .image {
+      opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+      opacity: 1;
+    }
+    
+    .text {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    
