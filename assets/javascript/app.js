@@ -25,15 +25,15 @@ var pos = 0;
 function renderQuestion(){
   test = get("test");
   if(pos >= questions.length){
-    test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2>";
+    test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct. Perhaps you should review 'Litany Against Fear'</h2>";
     get("test_status").innerHTML = "Test completed";
     // resets the variable to allow users to restart the test
     pos = 0;
     correct = 0;
-    if (correct === 0) {
-alert("You have mastered the Litany Against Fear. You have survived the Gom Jabbar. Perhaps you are the Kwizats Haderach....");
-
+    if (correct = 6) {
+alert("You have mastered the Litany Against Fear. You have survived the Gom Jabbar. Perhaps you are the Kwizats Haderach...."); 
     }
+  
           // stops rest of renderQuestion function running when test is completed
     return false;
   }
