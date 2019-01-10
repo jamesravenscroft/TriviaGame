@@ -9,12 +9,12 @@ var pos = 0;
     var test, test_status, question, choice, choices, chA, chB, chC;
     
     var questions = [
-  ["I must:", "not falter.", "not fear.", "calm my nerves.", "B"],
-  ["Fear is:", "The Sadist's Illusion", "The Ultimate Truth", "The Mind Killer", "C"],
-  ["Fear is:", "is the little-death that brings total obliteration.", "necessary to human survival.", "a fool's companion.", "A"],
-  ["I will:", "outsmart this witch.", "avoid further harm.", "face my fear", "C"],
-  ["I will:", "forgive transgressions", "permit it to pass over me and through me.", "fight relelntlessly", "B"],
-  ["And when it has gone past I will:", "channel my energy into my hand and destroy the box.", "challenge all opponents that wish to bring such pain to me in the future.", "turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.", "C"]
+  ["I must:", "NOT falter.", "NOT fear.", "CALM my nerves.", "B"],
+  ["Fear is:", "THE Sadist's Illusion", "THE Ultimate Truth", "THE Mind Killer", "C"],
+  ["Fear is:", "THE little-death that brings total obliteration.", "NECESSARY to human survival.", "A fool's companion.", "A"],
+  ["I will:", "OUTSMART this witch.", "AVOID further harm.", "FACE my fear", "C"],
+  ["I will:", "FORGIVE transgressions", "PERMIT it to pass over me and through me.", "FIGHT relelntlessly", "B"],
+  ["And when it has gone past I will:", "CHANNEL my energy into my hand and destroy the box.", "CHALLENGE all opponents that wish to bring such pain to me in the future.", "TURN the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.", "C"]
   
 ];
     

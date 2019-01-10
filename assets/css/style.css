@@ -23,7 +23,7 @@ body {
     background: cover;
     background-size: 100%;  
 }
-
+/* 
 #rcorners1 {
     border-radius: 25px;
     background: #73AD21;
@@ -48,7 +48,7 @@ body {
     padding: 20px; 
     width: 200px;
     height: 150px;  
-  }
+  } */
 
 
 /* 
@@ -89,17 +89,15 @@ h2 {
 }
 
 
-
 h3 {
+    font-family: 'Lemon';
     font-size: 70;
     text-align: center;
     color:white;
-    
     background: rgba(146, 175, 160, 0.6);
     -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
 padding-bottom: 30px;
-
 }
 
 
